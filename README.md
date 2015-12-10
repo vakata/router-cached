@@ -13,7 +13,7 @@ A simple request router with cache.
 Via Composer
 
 ``` bash
-$ composer require vakata/routerCached
+$ composer require vakata/router-cached
 ```
 
 ## Usage
@@ -46,21 +46,21 @@ If you discover any security related issues, please email github@vakata.com inst
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/vakata/routerCached.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/vakata/router-cached.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/vakata/routerCached/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/vakata/routerCached.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/vakata/routerCached.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/vakata/routerCached.svg?style=flat-square
-[ico-cc]: https://img.shields.io/codeclimate/github/vakata/routerCached.svg?style=flat-square
-[ico-cc-coverage]: https://img.shields.io/codeclimate/coverage/github/vakata/routerCached.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/vakata/router-cached/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/vakata/router-cached.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/vakata/router-cached.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/vakata/router-cached.svg?style=flat-square
+[ico-cc]: https://img.shields.io/codeclimate/github/vakata/router-cached.svg?style=flat-square
+[ico-cc-coverage]: https://img.shields.io/codeclimate/coverage/github/vakata/router-cached.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/vakata/routerCached
-[link-travis]: https://travis-ci.org/vakata/routerCached
-[link-scrutinizer]: https://scrutinizer-ci.com/g/vakata/routerCached/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/vakata/routerCached
-[link-downloads]: https://packagist.org/packages/vakata/routerCached
+[link-packagist]: https://packagist.org/packages/vakata/router-cached
+[link-travis]: https://travis-ci.org/vakata/router-cached
+[link-scrutinizer]: https://scrutinizer-ci.com/g/vakata/router-cached/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/vakata/router-cached
+[link-downloads]: https://packagist.org/packages/vakata/router-cached
 [link-author]: https://github.com/vakata
 [link-contributors]: ../../contributors
-[link-cc]: https://codeclimate.com/github/vakata/routerCached
+[link-cc]: https://codeclimate.com/github/vakata/router-cached
 

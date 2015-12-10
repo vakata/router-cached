@@ -1,11 +1,11 @@
 {
-    "name": "vakata/routerCached",
+    "name": "vakata/router-cached",
     "description": "A simple request router with cached",
     "keywords": [
         "vakata",
         "routerCached"
     ],
-    "homepage": "https://github.com/vakata/routerCached",
+    "homepage": "https://github.com/vakata/router-cached",
     "license": "MIT",
     "authors": [
         {

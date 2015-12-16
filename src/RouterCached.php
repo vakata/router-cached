@@ -5,6 +5,9 @@ namespace vakata\routerCached;
 use \vakata\router\Router;
 use \vakata\cache\CacheInterface;
 
+/**
+ * A caching router (extends the \vakata\router\Router class).
+ */
 class RouterCached extends Router
 {
     protected $cache = null;
@@ -13,6 +16,15 @@ class RouterCached extends Router
     protected $keyGenerator = null;
     protected $cachedVerbs = null;
 
+    /**
+     * Create an instance.
+     * @method __construct
+     * @param  CacheInterface $cache          the cache instance to use
+     * @param  integer        $cacheTimeout   the cache duration
+     * @param  callable|null  $keyGenerator   an optional callback so that you can return custom keys for each request
+     * @param  array|null     $cachedVerbs    which HTTP verbs to cache
+     * @param  string         $cacheNamespace the cache namespace to use
+     */
     public function __construct(
         CacheInterface $cache,
         $cacheTimeout = 1440,

@@ -37,7 +37,7 @@ class RouterCachedTest extends \PHPUnit_Framework_TestCase
 	 * @depends testCreate
 	 */
 	public function testTimeout() {
-		self::$routerCached = new \vakata\routerCached\RouterCached(self::$cache, 2);
+		self::$routerCached = new \vakata\routerCached\RouterCached(self::$cache, '', 2);
 		self::$routerCached->get('/get2', function () { return 3; });
 		$this->assertEquals(3, self::$routerCached->run('get2'));
 		self::$routerCached->get('/get2', function () { return 4; });
@@ -49,7 +49,7 @@ class RouterCachedTest extends \PHPUnit_Framework_TestCase
 	 * @depends testCreate
 	 */
 	public function testVerbs() {
-		self::$routerCached = new \vakata\routerCached\RouterCached(self::$cache, 30, null, [ 'POST' ]);
+		self::$routerCached = new \vakata\routerCached\RouterCached(self::$cache, '', 30, null, [ 'POST' ]);
 		self::$routerCached->get('/get3', function () { return 5; });
 		$this->assertEquals(5, self::$routerCached->run('get3'));
 		self::$routerCached->get('/get2', function () { return 6; });

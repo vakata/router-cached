@@ -20,6 +20,7 @@ class RouterCached extends Router
      * Create an instance.
      * @method __construct
      * @param  CacheInterface $cache          the cache instance to use
+     * @param  string|boolean      $base optional parameter indicating a common part of all the URLs that will be run
      * @param  integer        $cacheTimeout   the cache duration
      * @param  callable|null  $keyGenerator   an optional callback so that you can return custom keys for each request
      * @param  array|null     $cachedVerbs    which HTTP verbs to cache
@@ -27,11 +28,13 @@ class RouterCached extends Router
      */
     public function __construct(
         CacheInterface $cache,
+        $base = '',
         $cacheTimeout = 1440,
         callable $keyGenerator = null,
         array $cachedVerbs = null,
         $cacheNamespace = ''
     ) {
+        parent::__construct($base);
         if ($cachedVerbs === null) {
             $cachedVerbs = [ 'GET', 'HEAD', 'OPTIONS' ];
         }

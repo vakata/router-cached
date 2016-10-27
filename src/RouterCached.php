@@ -18,7 +18,6 @@ class RouterCached extends Router
 
     /**
      * Create an instance.
-     * @method __construct
      * @param  CacheInterface $cache          the cache instance to use
      * @param  string|boolean      $base optional parameter indicating a common part of all the URLs that will be run
      * @param  integer        $cacheTimeout   the cache duration
